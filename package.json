@@ -1,0 +1,18 @@
+{
+    "version": "0.3.0",
+    "name": "sk.kcorp.cordova.ios-security",
+    "cordova_name": "IOS Security",
+    "description": "Cordova Device Plugin",
+    "license": "MIT",
+    "repo": "https://github.com/robertklein/cordova-ios-security.git",
+    "keywords": [
+        "cordova",
+        "ios",
+        "security"
+    ],
+    "platforms": [
+        "android"
+    ],
+    "engines": [],
+    "englishdoc": ""
+}
