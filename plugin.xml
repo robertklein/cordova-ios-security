@@ -14,15 +14,11 @@
 
     <platform name="ios">
         <config-file target="*-Info.plist">
-            <array>
-                <dict>
-                    <key>NSAppTransportSecurity</key>
-                    <dict>  
-                        <key>NSAllowsArbitraryLoads</key>
-                        <true/>  
-                    </dict> 
-                </dict>
-            </array>
+            <key>NSAppTransportSecurity</key>
+            <dict>
+                <key>NSAllowsArbitraryLoads</key>
+                <true/>
+            </dict>
         </config-file>
     </platform>
 
