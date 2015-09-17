@@ -13,8 +13,7 @@
     <repo>https://github.com/robertklein/cordova-ios-security.git</repo>
 
     <platform name="ios">
-        <config-file target="*-Info.plist">
-            <key>NSAppTransportSecurity</key>
+        <config-file target="*-Info.plist" parent="NSAppTransportSecurity">
             <dict>
                 <key>NSAllowsArbitraryLoads</key>
                 <true/>
